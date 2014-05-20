@@ -9,6 +9,7 @@ node_modules/
 .bak
 .asta.bak
 *.lock
+*.mwb.bak
 
 # OS generated files #
 ######################

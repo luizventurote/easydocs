@@ -149,6 +149,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS referencia (
   referencia_id INT NOT NULL AUTO_INCREMENT,
   documento_id INT NOT NULL,
+  referencia_text TEXT NOT NULL,
   PRIMARY KEY (referencia_id),
   CONSTRAINT fk_referencia_documento1
     FOREIGN KEY (documento_id)
